@@ -137,3 +137,68 @@ body {
 .hero-content em{
     font-style:italic;
 }
+
+.speakers{
+    padding:100px 80px;
+    background:#ffffff;
+}
+
+.speakers h2{
+    text-align:center;
+    font-size:56px;
+    margin-bottom:60px;
+}
+
+.speaker-grid{
+    display:grid;
+
+    grid-template-columns:repeat(2, 1fr);
+
+    gap:30px;
+}
+
+.speaker-card{
+    border:1px solid #e5e7eb;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+    background:white;
+}
+
+.speaker-card img{
+    width:100%;
+
+    height:320px;
+
+    object-fit:cover;
+}
+
+.speaker-info{
+    padding:20px;
+}
+
+.tag{
+    color:#2563eb;
+
+    font-size:12px;
+
+    font-weight:700;
+
+    text-transform:uppercase;
+}
+
+.speaker-info h3{
+    margin-top:10px;
+
+    margin-bottom:8px;
+
+    font-size:24px;
+}
+
+.speaker-info p{
+    color:#666;
+
+    font-size:14px;
+}
